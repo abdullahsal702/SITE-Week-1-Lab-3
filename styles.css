@@ -1,0 +1,36 @@
+html {
+    background-color: lightgrey;
+}
+.hidden {
+    height: 0;
+    border: none;
+    display: none;  
+}
+
+form {
+    text-align: center;
+}
+
+#submit-btn {
+    margin: 20px;
+}
+
+.more-btn {
+    margin: 20px;
+}
+
+#gif-results {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    /* border: 1px solid black; */
+    max-width: 90vw; 
+    height: auto; 
+    justify-content: center;
+}
+
+.gif {
+    height: 200px; 
+    width: auto;
+    margin: 2px;
+}
